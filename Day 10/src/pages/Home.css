@@ -1,0 +1,79 @@
+.Home-navbar{
+    height: 70px;
+    width: 100vw;
+    background-color: rgb(237, 86, 88);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+
+}
+.Home-navbar-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 200px;
+}
+.Home-navbar-right p{
+    padding: 20px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.Home-navbar-left img{
+    height: 90px;
+    width: 180px;
+    margin-left: 80px;
+    
+}
+.home-Container{
+    justify-content: space-between;
+    
+    display: flex;
+
+}
+.home-containerleft{
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    align-items: start;
+
+}
+.home-containerleft h1{
+    margin-top: 250px;
+    margin-left: 100px;
+    font-size: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: salmon;
+    width: 300px;
+    
+}
+.home-containerleft p{
+    margin-left: 200px;
+    align-items: start;
+
+}
+.home-containerleft h2{
+    height: 50px;
+    width: 500px;
+    font-size: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 100px;
+    margin-top: -400px;
+    border: none;
+    color:rgb(19,81,94);
+    
+}
+.home-containerright img{
+    height: 400px;
+    width: 500px;
+    margin-top: 100px;
+    margin-right: 200px;
+}
+.Home-navbar-right p:hover{
+    transform:scale(1.05);
+    cursor: pointer;
+
+}
+    

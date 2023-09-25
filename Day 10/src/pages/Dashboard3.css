@@ -1,0 +1,116 @@
+/* Project.css */
+
+.Home-navbar {
+  height: 70px;
+  width: 100vw;
+  background-color: rgb(237, 86, 88);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+
+.Home-navbar-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 200px;
+}
+
+.Home-navbar-right p {
+  padding: 20px;
+  margin-left: 50px;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Home-navbar-left img {
+  height: 20vh;
+  width: 13vw;
+  margin-left: 80px;
+}
+
+.task-time-management {
+  width: 500px;
+   padding: 20px;
+  border: 1px solid #ccc;
+      margin-left: 100px;
+      padding-top: 150px;
+    
+  border-radius: 8px;
+
+  border: 1px solid #ccc;
+ 
+  border-radius: 8px;
+}
+
+.task-time-management-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.project-details {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.project-details-summary {
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 0;
+}
+
+.store-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(237, 86, 88);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.stored-projects {
+  margin-top: 20px;
+}
+
+.stored-projects h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.task-time-management-all{
+  height: 100vh;
+  margin-left: 400px;
+ 
+  width: 100vw;
+  /* margin-top: 100px; */
+  background-size: cover;
+}

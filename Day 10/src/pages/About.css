@@ -1,0 +1,47 @@
+.Home-navbar{
+    height: 70px;
+    width: 100vw;
+    background-color: rgb(237, 86, 88);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+
+}
+.Home-navbar-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 200px;
+}
+.Home-navbar-right p{
+    padding: 20px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.Home-navbar-left img{
+    height: 90px;
+    width: 180px;
+    margin-left: 80px;
+    
+}
+.aboutcontainers1 {
+    height: 100vh;
+    width: 100vw; 
+    margin-top: 70px;
+    align-items: center;
+    text-align: center;
+ 
+}
+.aboutcontainers1 p{
+    font-size: 20px;
+    width: 900px;
+    font-family: 'Poppins';
+    color:black;
+    text-align: center;
+    display: flex;
+    margin-left: 400px;
+
+}
